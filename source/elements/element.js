@@ -1,10 +1,10 @@
 import { Quantum, define } from '../../references/quantum.js';
-import { element } from '../templates/element.js';
+import { dialog } from '../templates/dialog.js';
 
-export class Element extends Quantum {
+export class Dialog extends Quantum {
     constructor() {
-        super(element);
+        super(dialog);
     }
 }
 
-define(Element);
+define(Dialog);

@@ -1,9 +1,5 @@
-import { template } from '../../references/quantum.js';
+<template id="quantum-dialog">
+    <style>
 
-const html = `
-`;
-
-const css = `
-`;
-
-export const dialog = template(html, css);
+    </style>
+</template>

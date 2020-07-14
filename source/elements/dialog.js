@@ -1,10 +1,13 @@
-import { Quantum, define } from '../../references/quantum.js';
-import { dialog } from '../templates/dialog.js';
+import { Component } from '../../references/quantum.js';
 
-export class Dialog extends Quantum {
+export class Dialog extends Component {
     constructor() {
-        super(dialog);
+        super();
     }
+
+    static template = document.querySelector('#quantum-dialog');
+
+    static attributes = [];
 }
 
-define(Dialog);
+customElements.define('quantum-dialog', Dialog);

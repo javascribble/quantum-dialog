@@ -1,5 +1,5 @@
-<template id="quantum-dialog">
-    <style>
+export default `
+<style>
 
-    </style>
-</template>
+</style>
+`;

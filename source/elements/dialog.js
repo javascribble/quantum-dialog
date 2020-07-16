@@ -1,11 +1,12 @@
-import { Component } from '../../references/quantum.js';
+import { Component, template } from '../../references/quantum.js';
+import html from '../templates/element.js';
 
 export class Dialog extends Component {
     constructor() {
         super();
     }
 
-    static template = document.querySelector('#quantum-dialog');
+    static template = template(html);
 
     static attributes = [];
 }

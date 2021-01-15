@@ -1,1 +1,3 @@
-export * from './elements/dialog.js';
+import * as dialog from './elements/dialog.js';
+
+Object.assign(window, dialog);

@@ -1,4 +1,3 @@
-import { Component, template, define } from '../import.js';
 import html from '../templates/dialog.js';
 
 export class Dialog extends Component {

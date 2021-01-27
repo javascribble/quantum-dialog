@@ -1,5 +1,7 @@
 import html from '../templates/dialog.js';
 
+const { Component, template, define } = quantum;
+
 export class Dialog extends Component {
     constructor() {
         super();

@@ -1,3 +1,3 @@
-import * as dialog from './elements/dialog.js';
+import { Dialog } from './elements/dialog.js';
 
-Object.assign(quantum, dialog);
+Quantum.Dialog = Dialog;

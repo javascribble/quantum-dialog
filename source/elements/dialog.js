@@ -1,13 +1,9 @@
 import html from '../templates/dialog.js';
 
-const { Component, template, define } = quantum;
-
-export class Dialog extends Component {
+export class Dialog extends Quantum {
     constructor() {
         super();
     }
-
-    static template = template(html);
 }
 
-define('quantum-dialog', Dialog);
+Dialog.define('quantum-dialog', html);
